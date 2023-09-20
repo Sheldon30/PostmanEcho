@@ -15,7 +15,7 @@ public class PostmanTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Netolog"))
+                .body("data", equalTo("Netology"))
         ;
     }
 }
